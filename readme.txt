@@ -67,7 +67,7 @@ Each delivery updates the vehicle’s availability time.
 
 PROJECT STRUCTURE
 
-KikiCourier/
+TheDeliveryService/
 Models/
 Package.cs
 Vehicle.cs
@@ -76,7 +76,7 @@ IOffer.cs
 Offer.cs
 Services/
 CostCalculator.cs
-DeliveryScheduler.cs
+DeliveryService.cs
 Utils/
 VehicleQueue.cs
 Program.cs
@@ -103,7 +103,7 @@ Columns:
 
 TESTING (NUNIT)
 
-A separate test project "KikiCourier.Tests" validates the logic.
+A separate test project "TheDeliveryService.Tests" validates the logic.
 Test Files:
 OfferTests.cs: Tests offer applicability.
 CostCalculatorTests.cs: Validates total cost and discount logic.
